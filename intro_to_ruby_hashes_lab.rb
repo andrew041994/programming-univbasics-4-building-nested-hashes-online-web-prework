@@ -29,6 +29,7 @@ def monopoly_with_third_tier
 			}
 		}
 		:railroads[rent_in_dollars] ? :railroads[rent_in_dollars] : [railroads] = rent_in_dollars
+		base_hash
 end
 
 def monopoly_with_fourth_tier
